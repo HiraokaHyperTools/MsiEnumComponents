@@ -10,12 +10,12 @@ MsiEnumComponents /productof {E8E39D3B-4F35-36D8-B892-4B28336FE041}
 MsiEnumComponents /productof {B33258FD-750C-3B42-8BE4-535B48E97DB4}
 ```
 
-C:\Proj\MsiEnumComponents\bin\Debug>MsiEnumComponents.exe  /productof {83CCA637-410A-58E4-BD1E-8DE029108ADB}
+MsiEnumComponents.exe  /productof {83CCA637-410A-58E4-BD1E-8DE029108ADB}
 ```
 {AD4CA91C-0F04-3E3E-9A7E-4A1A943BCBB8}  Visual C++ Library CRT X86 Redist Package
 ```
 
-C:\Proj\MsiEnumComponents\bin\Debug>MsiEnumComponents.exe /find vcruntime140.dll
+MsiEnumComponents.exe /find vcruntime140.dll
 ```
 44208	{4E906323-911A-3D41-B920-BCE7B086F8BF}	Local	C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Remote Debugger\x64\vcruntime140.dll	{DE064F60-6522-3310-9665-B5E3E78B3638}	Microsoft Visual Studio Community 2015
 77553	{83CCA637-410A-58E4-BD1E-8DE029108ADB}	Local	C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\redist\x86\Microsoft.VC140.CRT\vcruntime140.dll	{AD4CA91C-0F04-3E3E-9A7E-4A1A943BCBB8}	Visual C++ Library CRT X86 Redist Package
