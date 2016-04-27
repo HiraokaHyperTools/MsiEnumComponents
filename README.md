@@ -34,3 +34,6 @@ MsiEnumComponents.exe /find vcruntime140.dll
 
 Output format of: `/all` or `/find`
 - ComponentIndex TAB ComponentId TAB INSTALLSTATE TAB ComponentLocation TAB ProductId TAB ProductName
+
+Output format of: `productof`
+- ProductId TAB ProductName
