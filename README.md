@@ -32,8 +32,8 @@ MsiEnumComponents.exe /find vcruntime140.dll
 133122	{B33258FD-750C-3B42-8BE4-535B48E97DB4}	Local	C:\Windows\system32\vcruntime140.dll	{0D3E9E15-DE7A-300B-96F1-B4AF12B96488}	Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0.23026
 ```
 
-Output format of: `/all` or `/find`
+Output format of: `/all` or `/find` *filename*
 - ComponentIndex TAB ComponentId TAB INSTALLSTATE TAB ComponentLocation TAB ProductId TAB ProductName
 
-Output format of: `/productof`
+Output format of: `/productof` *ComponentId*
 - ProductId TAB ProductName
