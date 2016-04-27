@@ -4,6 +4,7 @@ Usage:
 ```
 MsiEnumComponents /all
 MsiEnumComponents /find vcruntime140.dll
+MsiEnumComponents /productof ComponentId
 MsiEnumComponents /productof {83CCA637-410A-58E4-BD1E-8DE029108ADB}
 MsiEnumComponents /productof {D282951C-BBCA-572D-83E5-CC72E934A4B2}
 MsiEnumComponents /productof {E8E39D3B-4F35-36D8-B892-4B28336FE041}
@@ -31,5 +32,5 @@ MsiEnumComponents.exe /find vcruntime140.dll
 133122	{B33258FD-750C-3B42-8BE4-535B48E97DB4}	Local	C:\Windows\system32\vcruntime140.dll	{0D3E9E15-DE7A-300B-96F1-B4AF12B96488}	Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0.23026
 ```
 
-Output format of: /all or /find
+Output format of: `/all` or `/find`
 - ComponentIndex TAB ComponentId TAB INSTALLSTATE TAB ComponentLocation TAB ProductId TAB ProductName
